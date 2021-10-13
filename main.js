@@ -27,6 +27,9 @@ app.post('/', (req, res) => {
   connectId(req.body);
   return res.send();
 })
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
 function connectId(data) {
 
