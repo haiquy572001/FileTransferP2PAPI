@@ -6,7 +6,8 @@
     "scripts": {
         "start": "node dist/index",
         "dev": "ts-node-dev server/index",
-        "build": "tsc"
+        "build": "tsc",
+        "heroku-postbuild": "tsc"
     },
     "keywords": [],
     "author": "",
